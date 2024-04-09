@@ -13,7 +13,7 @@ const sleep = (seconds: number = 0):Promise<boolean> => {
 export const updateTodo = async(id:string, complete:boolean):Promise<Todo> =>{
 
     //TODO optimist
-    await sleep(3)
+    //await sleep(3)
 
     const body = { complete}
 
