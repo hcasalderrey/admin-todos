@@ -1,3 +1,3 @@
-export * from './components/TodoGrid'
-export * from './components/TodoItem'
-export * from './components/NewTodo'
+export {TodoGrid} from './components/TodoGrid'
+export {TodoItem} from './components/TodoItem'
+export {NewTodo} from './components/NewTodo'
